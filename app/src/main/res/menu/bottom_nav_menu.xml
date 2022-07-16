@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+            android:id="@+id/itemAccueil_menu"
+            android:icon="@drawable/ic_menu_accueil_default_48dp"
+            android:title="@string/titre_accueil"
+            android:iconTint="@color/menuSelectedColor"/>
+
+    <item
+            android:id="@+id/itemNotes_menu"
+            android:icon="@drawable/ic_menu_notes_default_48dp"
+            android:title="@string/titre_notes"/>
+
+<!--    <item
+            android:id="@+id/itemClassement_menu"
+            android:icon="@drawable/ic_menu_classement_default_48dp"
+            android:title="@string/titre_classement"/>-->
+
+<!--    <item android:title="@string/titre_prevision"
+          android:id="@+id/itemPrevision_menu"
+          android:icon="@drawable/ic_menu_previsions_default_48dp"/>-->
+
+    <item android:title="@string/titre_reglages"
+          android:id="@+id/itemReglages_menu"
+          android:icon="@drawable/ic_menu_reglage_default_48dp"
+            android:iconTint="@color/menuSelectedColor"/>
+
+</menu>

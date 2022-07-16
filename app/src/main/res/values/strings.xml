@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">SAGAEM</string>
+    <string name="title_activity_act_navigation">actNavigation</string>
+    <string name="titre_accueil">Accueil</string>
+    <string name="titre_classement">Classement</string>
+    <string name="titre_notes">Notes</string>
+    <string name="titre_prevision">Prévisions</string>
+    <string name="titre_reglages">Réglages</string>
+    <string name="titre_note_detail">Note</string>
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails</string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="title_activity_act_connexion">actConnexion</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Se connecter</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="title_activity_login">LoginActivity</string>
+
+    <!-- Visuels -->
+    <string name="login_label">Identifiant</string>
+    <string name="password_label">Mot de passe</string>
+    <string name="remember_me_label">Se souvenir de moi</string>
+    <string name="forgotten_password_label">
+        <u>Mot de passe oublié ?</u>
+    </string>
+    <string name="hello">Bonjour</string>
+    <string name="last_notes">Mes dernières notes</string>
+    <string name="average">Moyenne générale</string>
+    <string name="rank">Mon classement</string>
+    <string name="calculate_note">Calculer mes prévisions</string>
+    <string name="graph_label">Mes notes</string>
+    <string name="previous">Précédent</string>
+    <string name="export">Exporter en PDF</string>
+    <string name="search">Rechercher</string>
+    <string name="notes">Notes</string>
+    <string name="coefficient_small">coef.</string>
+    <string name="note_sur">/20</string>
+    <string name="note_default">--</string>
+    <string name="uv_prefix">UV</string>
+    <string name="matiere">Matière</string>
+    <string name="moyenne_matiere">Moyenne</string>
+    <string name="settings">Réglages</string>
+    <string name="disconnect">Se déconnecter</string>
+    <string name="actualise">Actualiser les données</string>
+    <string name="connected_as">Vous êtes connecté·e en temps que </string>
+    <string name="about_title">À propos</string>
+    <string name="about_description">Toor</string>
+    <string name="disconnect_title">Déconnexion</string>
+    <string name="disconnect_description">Se déconnecter de l\'application</string>
+    <string name="refresh_title">Actualiser</string>
+    <string name="refresh_description">Mettre à jour récupérer les dernières notes</string>
+    <string name="about_popup_title">SAGAEM</string>
+    <string name="about_popup_description"> Cette application à été développée dans le cadre du projet de fin de formation BESTAT du stage J010, par le groupe Toor :\n\nSGT Beltran-Carrerra, SCH Benard, SGT Leroy, SGT Thurnes et SCH Voisine</string>
+
+
+
+</resources>

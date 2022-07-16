@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/mobile_navigation"
+            app:startDestination="@+id/itemAccueil_menu">
+
+    <fragment
+            android:id="@+id/itemAccueil_menu"
+            android:name="fr.armees.sagaiem.ui.accueil.FragmentAccueil"
+            android:label="@string/titre_accueil"
+            tools:layout="@layout/fragment_accueil">
+        <action android:id="@+id/action_accueil_to_notes"
+                app:destination="@id/itemNotes_menu"/>
+    </fragment>
+
+
+    <fragment
+            android:id="@+id/itemClassement_menu"
+            android:name="fr.armees.sagaiem.ui.classement.FragmentClassement"
+            android:label="@string/titre_classement"
+            tools:layout="@layout/fragment_classement"/>
+    <fragment
+            android:id="@+id/itemPrevision_menu"
+            android:name="fr.armees.sagaiem.ui.prevision.FragmentPrevision"
+            android:label="@string/titre_classement"
+            tools:layout="@layout/fragment_prevision"/>
+    <fragment
+            android:id="@+id/itemReglages_menu"
+            android:name="fr.armees.sagaiem.ui.reglages.FragmentReglages"
+            android:label="@string/titre_reglages"
+            tools:layout="@layout/fragment_classement"/>
+
+    <fragment
+            android:id="@+id/itemNotes_menu"
+            android:name="fr.armees.sagaiem.ui.notes.FragmentNotes"
+            android:label="@string/titre_notes"
+            tools:layout="@layout/fragment_notes">
+        <action android:id="@+id/action_notes_to_notesDetail"
+                app:destination="@id/itemNotes_detail"
+                app:enterAnim="@anim/fade_in"
+                app:exitAnim="@anim/fade_out"/>
+
+    </fragment>
+
+    <fragment
+            android:id="@+id/itemNotes_detail"
+            android:name="fr.armees.sagaiem.ui.notedetail.FragmentNoteDetail"
+            android:label="@string/titre_notes"
+            tools:layout="@layout/fragment_note_detail">
+        <action android:id="@+id/action_notesDetail_to_notes"
+                app:destination="@id/itemNotes_menu"
+                app:enterAnim="@anim/fade_in"
+                app:popExitAnim="@anim/fade_out"/>
+
+    </fragment>
+
+
+</navigation>

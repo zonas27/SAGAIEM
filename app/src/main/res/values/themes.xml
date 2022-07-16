@@ -1,0 +1,42 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.SAGAIEM" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryVariant">@color/primaryLightColor</item>
+        <item name="colorOnPrimary">@color/primaryTextColor</item>
+        <item name="colorPrimaryDark">@color/primaryDarkColor</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/secondaryColor</item>
+        <item name="colorSecondaryVariant">@color/secondaryLightColor</item>
+        <item name="colorOnSecondary">@color/secondaryTextColor</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="android:textCheckMark">@drawable/ic_done_purple_24dp</item>
+<!--        <item name="android:textColor">#ffffffff</item>-->
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="BottomNavigationViewStyle" parent="Widget.MaterialComponents.BottomNavigationView.Colored">
+        <item name="android:background">@color/menuBackgroundColor</item>
+        <item name="itemTextColor">@color/menuDefaultColor</item>
+        <item name="itemIconTint">@color/menuDefaultColor</item>
+    </style>
+    <style name="ThemeOverlay.SAGAIEM.FullscreenContainer" parent="">
+        <item name="fullscreenBackgroundColor">@color/light_blue_600</item>
+        <item name="fullscreenTextColor">@color/light_blue_A200</item>
+    </style>
+
+    <style name="Settings" parent="Theme.SAGAIEM">
+        <item name="android:title">@color/defaultTextColor</item>
+        <item name="android:tint">@color/defaultTextColor</item>
+        <item name="android:textColor">@color/defaultTextColor</item>
+    </style>
+
+    <style name="Box" parent="Theme.SAGAIEM">
+        <item name="android:textColor">@color/primaryTextColor</item>
+    </style>
+
+</resources>

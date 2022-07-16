@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primaryColor">#ff01396a</color>
+    <color name="primaryLightColor">#ff406398</color>
+    <color name="primaryDarkColor">#ff00143f</color>
+    <color name="secondaryColor">#ff6b0c5c</color>
+    <color name="secondaryLightColor">#ff9c4189</color>
+    <color name="secondaryDarkColor">#ff3c0032</color>
+    <color name="primaryTextColor">#ffffffff</color>
+    <color name="secondaryTextColor">#ffffffff</color>
+    <color name="defaultTextColor">#ff333333</color>
+    <color name="menuSelectedColor">#ffc668b2</color>
+    <color name="menuDefaultColor">#ffffffff</color>
+    <color name="menuBackgroundColor">#ff01396a</color>
+    <color name="inputDefaultColor">#ff01396a</color>
+    <color name="inputHintDefaultColor">#9C01396A</color>
+    <color name="inputFocusColor">#ff6b0c5c</color>
+    <color name="light_blue_600">#FF039BE5</color>
+    <color name="light_blue_900">#FF01579B</color>
+    <color name="light_blue_A200">#FF40C4FF</color>
+    <color name="light_blue_A400">#FF00B0FF</color>
+    <color name="black_overlay">#66000000</color>
+</resources>
